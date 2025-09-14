@@ -1,0 +1,83 @@
+{
+  "name": "Secure Sakhi - Women Safety AI Dashboard",
+  "short_name": "Secure Sakhi",
+  "description": "Your trusted AI-powered safety companion with real-time protection",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#7341c3",
+  "theme_color": "#7341c3",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["safety", "utilities", "health"],
+  "icons": [
+    {
+      "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/67362e95-3afa-4132-80c7-48625ee23955.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f5a57b39-4473-4f7f-8310-9b3072f4c67b.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergency SOS",
+      "short_name": "Emergency",
+      "description": "Activate emergency protocol immediately",
+      "url": "/?emergency=true",
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3d2daf59-57f9-4824-bd0c-86750ef55816.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Voice Detection",
+      "short_name": "Voice",
+      "description": "Start voice monitoring",
+      "url": "/?tab=voice",
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/44d576de-9fb8-47c4-88b5-0551c9e17f58.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Location Sharing",
+      "short_name": "Location",
+      "description": "Share current location",
+      "url": "/?tab=location",
+      "icons": [
+        {
+          "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/310e72ff-01d4-4862-985f-b329282a33cf.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5e07a336-a99e-4ba4-878b-779aba76a87e.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Dashboard Overview"
+    },
+    {
+      "src": "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/321b6b31-be6a-497d-be23-631895c6a960.png",
+      "sizes": "1920x1080", 
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop Dashboard"
+    }
+  ]
+}
